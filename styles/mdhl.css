@@ -1,0 +1,119 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: cursive;
+}
+
+.title{
+
+    margin: 25px 25px 10px 22px;
+}
+
+
+.container-log-tit{
+    background: linear-gradient( rgb(204 207 227 / 27%), rgb(89 88 202 / 50%)) , url("../assets/design1_image2.jpg");
+    background-repeat: no-repeat;
+    background-position: center ;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0px 10px 15px -4px rgb(0 0 0 / 57%);
+
+}
+.container-log-tit h1{
+    font-size: 50px;
+    color: white;
+
+}
+div > a{
+    background: black;
+    color: aliceblue;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 15px 0px;
+}
+
+/*
+.container-log-tit > a{
+    background: black;
+    color: aliceblue;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 15px 0px;
+}
+
+*/
+.logo img{
+    
+    max-width: 130px;
+
+}
+
+
+.container-main{
+    display: flex;
+    flex-direction: row;
+    margin: 30px 5%;
+}
+
+.container-nav{
+    position: absolute;
+    right: 1vw;
+    top: 4vh;
+    height: 190px;
+}
+.container-nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+
+}
+
+
+.container-nav ul > li a{
+    color: white;
+    padding: 0.2rem 1rem;
+    margin: 0px 5px;
+    border: 0.2rem solid black;
+    box-shadow: 4px 4px 2px 0px rgb(0 0 0 / 45%);
+}
+
+
+
+.container-nav ul > li a:hover{
+    border-radius: 15px;
+    padding: 5px 18px;
+    margin: 15px;
+    transition: .3s ease-out;
+}
+
+
+
+
+.btn{
+
+    background-color: rgb(80 74 184);
+
+}
+
+#selected{
+    background-color: rgb(40, 136, 33);
+}
+
+.container-article{
+    margin-left: 5%;
+}
+.container-article h4{
+    padding: 5px;
+}
+
+.container-article h5, .container-article p, .container-article div{
+    padding: 5px 35px;
+}
+
